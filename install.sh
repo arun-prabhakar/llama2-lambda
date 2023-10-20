@@ -6,7 +6,7 @@ pip3 install -r requirements.txt
 
 MODELURL="https://huggingface.co/TheBloke/Llama-2-13B-GGML/resolve/main/llama-2-13b.ggmlv3.q2_K.bin"
 DOWNLOAD_DIR="./llama_cpp_docker/"
-FILE_NAME="modelfiles.bin"
+FILE_NAME="modelfile.bin"
 
 if [ -f "$DOWNLOAD_DIR$FILE_NAME" ]; then
     echo "Model already exists: $FILE_NAME"
